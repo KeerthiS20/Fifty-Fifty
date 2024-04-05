@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: auto;
+    height: 100px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    position: relative;
+}
+
+.name {
+    color: #ff2811;
+    font-family: 'Archivo Black';
+    font-size: 35px;
+}
+
+.container {
+    margin: ; 
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0;
+    top: 0;
+    padding: 20px;
+}
+
+nav ul {
+    margin-top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #0eed0e;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Playfair Display'    ;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fdb0c0;
+    left: 0;
+    position: absolute;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.data {
+    top: 2;
+    left: 2pc;
+    font-size: 50px;
+    font-family: 'Sriracha';
+    position: absolute;
+}
+
+#our-items {
+    background-image: url('images/food images.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#our-items img:hover {
+    opacity: 1; /* Increase opacity on hover */
+}
+
+/* Add a margin-bottom to all heading tags */
+#our-items h1,
+#our-items h2,
+#our-items h3,
+#our-items h4,
+#our-items h5,
+#our-items h6 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.avail{
+    color: #0d720d;
+}
+
+/* Additional styles for individual headings */
+.foodsharing {
+    /* Your styling for the Food Sharing heading */
+}
+
+.available {
+    /* Your styling for the Available Food heading */
+}
+
+.step {
+    /* Your styling for the Step heading */
+}
+
+.sort {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; /* Adjust margin as needed */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sort:hover {
+    background-color: #45a049; /* Darker green background on hover */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners only on the left side */
+    width: 200px; /* Adjust width as needed */
+    margin-left: 553px;
+}
+
+.search-container button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 0 5px 5px 0; /* Rounded corners only on the right side */
+    transition: background-color 0.3s ease; 
+}/* Smooth transition on hover */
+
+
+.search-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.food-items{
+     padding: 50px;
+     justify-content: end;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 0;
+     top: 0;
+}
+
+.tomato{
+    width: 400px;
+    height: 400px;
+
+}
+
+.ginger{
+  width: 400px;
+  height: 400px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 2px;
+
+.food-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.food-items img {
+    max-width: 30%;
+    height: auto;
+    transition: opacity 0.3s ease; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.food-items img:hover {
+    opacity: 0.7;
+}
+
+
+.food-items img.hovered {
+    transform: scale(1.1); 
+}
+
+.details{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.details-1{
+     margin-left: 570px;
+     margin-top: -165px;
+}
+
+.details-2{
+    margin-left: 1120px;
+    margin-top: -135px;
+}
+
+.detailss-1{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.detailss-2{
+     margin-left: 570px;
+     margin-top: -165px;
+    }
+
+.detailss-3{
+    margin-left: 1120px;
+    margin-top: -155px;
+}
+
+.details-row3-1{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.details-row3-2{
+     margin-left: 560px;
+     margin-top: -165px;
+}
+
+.details-row3-3{
+    margin-left: 71%;
+    margin-top: -165px;
+}
+
+/*------------contact-us----------*/
+
+
+.contact.list{
+    margin-left: 50px;
+}
